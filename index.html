@@ -58,7 +58,7 @@
 					<div class="row justify-content-center height align-items-center">
 						<div class="col-lg-8">
 							<div class="banner-content text-center">
-								<span class="text-white top text-uppercase">Re-imagining the way</span>
+								<span class="text-white top text-uppercase">Chronic Hub</span>
 								<h1 class="text-white text-uppercase">We grow money, Guaranteed</h1>
 								<a href="#contact" class="primary-btn d-inline-flex align-items-center"><span class="mr-10">Get In Touch</span><span class="lnr lnr-arrow-right"></span></a>
 							</div>
@@ -267,35 +267,39 @@
 						<div class="col-lg-6">
 							<div id="mc_embed_signup">
 
-								<form class="contactForm relative">
+								<form class="contactForm relative" action="https://getsimpleform.com/messages?form_api_token=5baed1efe3519aab673b56bf590cb37c" method="post">
+									<input type='hidden' name='redirect_to' value='http://chronic-hub.ca' />
 
 									<div class="form-group">
 								    <label for="firstName">First Name</label>
-								    <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp">
+								    <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp" name='fname'>
 									</div>
 
 									<div class="form-group">
 										<label for="lastName">Last Name</label>
-										<input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp">
+										<input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp"
+										name='lname'>
 								  </div>
 
 
 									<div class="form-row">
 									 <div class="col">
 										 <label for="exampleInputEmail1">Email address</label>
- 								    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+ 								    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+										name='email'>
  								    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 									 </div>
 
 									 <div class="col">
 										 <label for="phoneNumber">Phone Number</label>
- 								    <input type="email" class="form-control" id="phoneNumber" aria-describedby="phoneNumber">
+ 								    <input type="tel" class="form-control" id="phoneNumber" aria-describedby="phoneNumber"
+										name='phone'>
 									 </div>
 								 </div>
 
 								 <div class="form-group subject-group">
 								    <label for="subject">Subject</label>
-								    <select class="form-control" id="subject">
+								    <select class="form-control" id="subject" name='title'>
 								      <option>Franchising Opportunities</option>
 								      <option>Customer Comments</option>
 								      <option>Careers</option>
@@ -306,11 +310,11 @@
 
 									<div class="form-group">
 								    <label for="message">Example textarea</label>
-								    <textarea class="form-control" id="message" rows="3"></textarea>
+								    <textarea class="form-control" id="message" rows="3" name='message'></textarea>
 								  </div>
 
 
-								  <button class="primary-btn hover d-inline-flex align-items-center"><span class="mr-10">Send Message</span><span class="lnr lnr-arrow-right"></span></button>
+								  <button class="primary-btn hover d-inline-flex align-items-center" type="submit"><span class="mr-10">Send Message</span><span class="lnr lnr-arrow-right"></span></button>
 								</form>
 							</div>
 						</div>
