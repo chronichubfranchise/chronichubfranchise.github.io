@@ -1779,11 +1779,6 @@ body {
 @media (max-width: 767px) {
   .contactForm input {
     padding: 0 25px; }
-  .contactForm .primary-btn {
-    top: 120%;
-    transform: translate(50%, 0);
-    right: 50%;
-    width: 167px; }
   .contactForm .info {
     top: 110px; } }
 
