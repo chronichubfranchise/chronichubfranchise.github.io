@@ -1495,7 +1495,7 @@ body {
       width: 90%; } }
   @media (max-width: 767px) {
     .main-wrapper {
-      width: 97%; } }
+      width: 90%; } }
 
 .p1-gradient-bg, .primary-btn:after, .banner-area, .single-feature .icon:after, .service-area, .story-area, .single-widget .icon:after {
   background-image: -moz-linear-gradient(-45deg, #0B800B 0%, #032603 90%);
