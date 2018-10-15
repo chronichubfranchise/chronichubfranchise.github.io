@@ -13,7 +13,12 @@
 	@include media-breakpoint-down (sm) {
 		padding: 15px 0;
 	}
+
+	.logo{
+		display: none;
+	}
 }
+
 .menu-bar {
 	cursor: pointer;
 	span {

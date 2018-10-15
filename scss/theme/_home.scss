@@ -338,12 +338,14 @@ body {
 
 	}
 }
-.subscription-area {
+.contact-area {
 	background: $white;
 	padding: 100px 0;
 }
-.subscription {
-	input {
+.contactForm {
+	input,
+	select,
+	textarea {
 		width: 100%;
 		line-height: 50px;
 		padding: 0 180px 0 25px;
@@ -353,11 +355,21 @@ body {
 		border-radius: 25px;
 		background: #f9f9ff;
 	}
+
+	.form-control:focus{
+		background: #f9f9ff;
+	}
+
+	.subject-group{
+		margin-top: 2rem;
+	}
+
+	.nice-select {
+		display: none;
+	}
+
 	.primary-btn {
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-		right: 5px;
+		
 	}
 	.info {
 		position: absolute;

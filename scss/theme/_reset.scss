@@ -1,5 +1,5 @@
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 
 // ::-moz-selection { /* Code for Firefox */
@@ -48,7 +48,7 @@ ol, ul {
     list-style: none;
 }
 select {
-    display: block;
+    display: block!important;
 }
 figure {
     margin: 0;
