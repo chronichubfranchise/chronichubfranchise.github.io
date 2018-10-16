@@ -1481,7 +1481,7 @@ body {
       width: 90%; } }
   @media (max-width: 767px) {
     .main-wrapper-first {
-      margin-top: 3rem;
+      margin-top: 1rem;
       width: 97%; } }
 
 .main-wrapper {
@@ -1495,7 +1495,7 @@ body {
       width: 90%; } }
   @media (max-width: 767px) {
     .main-wrapper {
-      width: 90%; } }
+      width: 97%; } }
 
 .p1-gradient-bg, .primary-btn:after, .banner-area, .single-feature .icon:after, .service-area, .story-area, .single-widget .icon:after {
   background-image: -moz-linear-gradient(-45deg, #0B800B 0%, #032603 90%);
@@ -1608,7 +1608,8 @@ body {
   width: 72%; }
   @media (max-width: 991px) {
     .single-feature .desc {
-      width: 100%; } }
+      width: 100%;
+      margin-bottom: 3rem; } }
   .single-feature .desc h6 {
     margin: 20px 0; }
 .single-feature:hover .icon {
@@ -1643,7 +1644,8 @@ body {
   .single-service .desc {
     margin-top: 30px; }
     .single-service .desc h6 {
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      text-align: center; }
     .single-service .desc p {
       margin: 0; }
   .single-service:hover .overlay-content {
