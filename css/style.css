@@ -1,0 +1,24 @@
+.p1-gradient-bg,
+.primary-btn:after,
+.banner-area,
+.single-feature .icon:after,
+.service-area,
+.story-area,
+.single-widget
+.icon:after,
+.p1-gradient-color,
+.single-feature .icon span{
+      background-image: -webkit-linear-gradient(-45deg, #D62121 0%, #3a1111 90%);
+}
+
+body:after {
+  background-image: -webkit-linear-gradient(-45deg, #D62121 0%, #3a1111 90%);
+}
+
+.footer-widget-area{
+  background-color: transparent;
+}
+
+.active-works-carousel .owl-dots .owl-dot.active{
+  background-color: #D62121;
+}
